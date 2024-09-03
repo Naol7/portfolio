@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px; /* Optional padding for some space around the content */
+}
+.home-text-wrapper {
+    text-align: left; /* Align text to the left */
+    margin-right: 40px; /* Space between the text and the image */
+}
+
+h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+    color: #393434; /* Optional text color */
+    margin: 0;
+    line-height: 1.4;
+}
+
+
+.profile img {
+    max-width: 200px; 
+    height: auto;
+    padding: 5px;
+    /* border-radius: 65%;  */
+}
